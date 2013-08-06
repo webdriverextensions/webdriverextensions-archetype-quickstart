@@ -1,7 +1,7 @@
 Webdriver Extension Archetype Quickstart Create From Project
 ===================
 
-A template project used for creating the Webdriver Extension Quickstart Archetype, see https://www.github.com/andidev/webdriver-extension-archetype-quickstart.
+A template project used for creating the Webdriver Extension Quickstart Archetype, see https://github.com/andidev/webdriver-extension-archetype-quickstart.
 
 ### How to create the Webdriver Extension Quickstart Archetype?
 
@@ -26,7 +26,7 @@ mvn archetype:generate                                                          
   -DartifactId=wikipedia                                                                               \
   -Dversion=1.0-SNAPSHOT                                                                               \
   -DsiteName=GitHub                                                                                    \
-  -DsiteUrl=https://www.github.com
+  -DsiteUrl=https://github.com
 ~~~
 
 ##### Deploy the archetype
@@ -45,7 +45,7 @@ mvn archetype:generate                                                          
   -DartifactId=wikipedia                                                                               \
   -Dversion=1.0-SNAPSHOT                                                                               \
   -DsiteName=GitHub                                                                                    \
-  -DsiteUrl=https://www.github.com
+  -DsiteUrl=https://github.com
 ~~~
 
 ##### Release the archetype

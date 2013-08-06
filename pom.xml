@@ -36,7 +36,7 @@
 
   <description>Creates a new WebDriver Extension project Template to test your Web Site.</description>
 
-  <url>https://www.github.com/andidev/webdriver-extension-archetype-quickstart</url>
+  <url>https://github.com/andidev/webdriver-extension-archetype-quickstart</url>
 
   <scm>
     <connection>scm:git:git@github.com:andidev/webdriver-extension-archetype-quickstart.git</connection>

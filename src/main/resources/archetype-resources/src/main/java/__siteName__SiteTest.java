@@ -4,17 +4,16 @@
 package ${groupId};
 
 import ${groupId}.page.MainPage;
+import org.andidev.webdriverextension.ThreadDriver;
 import org.andidev.webdriverextension.WebRepository;
-import org.andidev.webdriverextension.junitrunner.SeleniumGridRunner;
+import org.andidev.webdriverextension.junitrunner.WebDriverRunner;
 import org.andidev.webdriverextension.junitrunner.annotations.Chrome;
 import org.andidev.webdriverextension.junitrunner.annotations.Firefox;
 import org.andidev.webdriverextension.junitrunner.annotations.InternetExplorer;
-import org.andidev.webdriverextension.junitrunner.annotations.RemoteAddress;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 
-@RunWith(SeleniumGridRunner.class)
-@RemoteAddress("http://andidev:80b7768e-dc06-4d5b-b793-5b3b83f0e24c@ondemand.saucelabs.com:80/wd/hub")
+@RunWith(WebDriverRunner.class)
 @Firefox
 @Chrome
 @InternetExplorer
@@ -29,13 +28,6 @@ public class ${siteName}SiteTest extends WebRepository {
 
     @Before
     public void setUp() {
-        initElements();
+        initElements(ThreadDriver.getDriver());
     }
-
-
-//    @After
-//    public void tearDown() {
-//        ThreadDriver.getDriver().quit();
-//        ThreadDriver.removeDriver();
-//    }
 }

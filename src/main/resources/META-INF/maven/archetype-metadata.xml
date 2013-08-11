@@ -34,7 +34,6 @@
         <include>install</include>
         <include>LICENSE</include>
         <include>README.md</include>
-        <include>release</include>
       </includes>
     </fileSet>
   </fileSets>

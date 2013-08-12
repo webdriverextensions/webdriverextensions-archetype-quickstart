@@ -37,8 +37,9 @@ mvn archetype:generate                                                          
   -DarchetypeCatalog=https://oss.sonatype.org/content/repositories/snapshots/archetype-catalog.xml
 ```
 
-#### Adding the Drivers
-You could eihter download the latest drivers provided by an arhcetype
+### Adding the Drivers
+To be able to run the tests in Chrome and Internet Explorer you need to add the server drivers.
+You could eihter download the latest drivers provided by the `webdriver-extension-archetype-drivers` archetype
 ```sh
 mvn archetype:generate                                                                             \
   -DarchetypeGroupId=org.andidev                                                                   \

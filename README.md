@@ -1,19 +1,19 @@
 WebDriver Extension Archetype Quickstart
 ===================
 
-An quickstart archetype for new WebDriver Extension projects.
+A quickstart archetype for new WebDriver Extension projects.
 
 ### Requirements
 - Java 6 or higher
 - Maven 3.x.x
 
-### How to Use It
+### Creating a New Project
 Open your terminal and run the following command from the direcotory where you want to create your project
 ```sh
 mvn archetype:generate                                                                             \
-  -DgroupId=your.group.id                                                                        \
+  -DgroupId=your.group.id                                                                          \
   -DartifactId=your-artifact-id                                                                    \
-  -Dversion=your-artifact-version                                                                  \
+  -Dversion=1.0-SNAPSHOT                                                                           \
   -DsiteName=YourWebSiteNameInUpperCamelCase                                                       \
   -DsiteUrl=https://yourwebsiteurl.com                                                             \
   -DarchetypeGroupId=org.andidev                                                                   \

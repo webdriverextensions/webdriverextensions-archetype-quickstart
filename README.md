@@ -9,7 +9,7 @@ An quickstart archetype for new WebDriver Extension projects.
 Use the maven archetype generate command to create a new project 
 ```sh
 mvn archetype:generate                                                                             \
-  -DgroupId=your.group.name                                                                        \
+  -DgroupId=your.group.id                                                                        \
   -DartifactId=your-artifact-id                                                                    \
   -Dversion=your-artifact-version                                                                  \
   -DsiteName=YourWebSiteNameInUpperCamelCase                                                       \

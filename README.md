@@ -16,10 +16,9 @@ mvn archetype:generate                                                          
   -Dversion=1.0-SNAPSHOT                                                                           \
   -DsiteName=YourWebSiteNameInUpperCamelCase                                                       \
   -DsiteUrl=https://yourwebsiteurl.com                                                             \
-  -DarchetypeGroupId=org.andidev                                                                   \
-  -DarchetypeArtifactId=webdriver-extension-archetype-quickstart                                   \
-  -DarchetypeVersion=1.0-SNAPSHOT                                                                  \
-  -DarchetypeCatalog=https://oss.sonatype.org/content/repositories/snapshots/archetype-catalog.xml
+  -DarchetypeGroupId=com.github.webdriverextensions                                                \
+  -DarchetypeArtifactId=webdriverextensions-archetype-quickstart                                   \
+  -DarchetypeVersion=1.0
 ```
 
 E.g. lets say we want to create the a project to test the GitHub website
@@ -31,35 +30,19 @@ mvn archetype:generate                                                          
   -Dversion=1.0-SNAPSHOT                                                                           \
   -DsiteName=GitHub                                                                                \
   -DsiteUrl=https://github.com                                                                     \
-  -DarchetypeGroupId=org.andidev                                                                   \
-  -DarchetypeArtifactId=webdriver-extension-archetype-quickstart                                   \
-  -DarchetypeVersion=1.0-SNAPSHOT                                                                  \
-  -DarchetypeCatalog=https://oss.sonatype.org/content/repositories/snapshots/archetype-catalog.xml
+  -DarchetypeGroupId=com.github.webdriverextensions                                                \
+  -DarchetypeArtifactId=webdriverextensions-archetype-quickstart                                   \
+  -DarchetypeVersion=1.0
 ```
 
-### Adding the Drivers
-To be able to run the tests in Chrome and Internet Explorer you need to add the server drivers.
-You could eihter download the latest drivers provided by the `webdriver-extension-archetype-drivers` archetype
+No need to add any drivers since the webdriverextensions-maven-plugin is configured to download
+them for you!
+
+Simply just run the generated template test by executing
+
 ```sh
-mvn archetype:generate                                                                             \
-  -DarchetypeGroupId=org.andidev                                                                   \
-  -DarchetypeArtifactId=webdriver-extension-archetype-drivers                                      \
-  -DarchetypeVersion=1.0-SNAPSHOT                                                                  \
-  -DarchetypeCatalog=https://oss.sonatype.org/content/repositories/snapshots/archetype-catalog.xml
+mvn test
 ```
-... or add them manually to the following folders renamed to the names shown below
-```
-your-artifact-id
-├── drivers
-│   ├── linux
-│   │   └── chromedriver
-│   ├── mac
-│   │   └── chromedriver
-│   └── windows
-│       ├── chromedriver.exe
-│       └── internetexplorerdriver.exe
-```
-Note that it is only nessecery to add drivers for platforms that will be used. E.g. just skip adding the linux and the mac folders and drivers if you will only run your test on windows.
 
 ## License
 

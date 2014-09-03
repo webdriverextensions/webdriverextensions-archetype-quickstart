@@ -1,9 +1,9 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${groupId}.page.components;
+package ${groupId}.component;
 
-import org.andidev.webdriverextension.WebComponent;
+import com.github.webdriverextensions.WebComponent;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

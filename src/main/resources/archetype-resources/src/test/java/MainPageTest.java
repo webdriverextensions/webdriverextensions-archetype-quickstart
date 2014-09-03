@@ -4,7 +4,7 @@
 package ${groupId};
 
 import org.junit.Test;
-import static org.andidev.webdriverextension.Bot.*;
+import static com.github.webdriverextensions.Bot.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

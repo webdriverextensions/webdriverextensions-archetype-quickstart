@@ -4,15 +4,15 @@
 package ${groupId}.page;
 
 import ${groupId}.${siteName}Site;
-import ${groupId}.page.components.ExampleWebComponent;
-import org.andidev.webdriverextension.WebPage;
+import ${groupId}.component.ExampleWebComponent;
+import com.github.webdriverextensions.WebPage;
 import org.openqa.selenium.support.FindBy;
-import static org.andidev.webdriverextension.Bot.*;
+import static com.github.webdriverextensions.Bot.*;
 import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class MainPage extends WebPage<${siteName}Site> {
+public class MainPage extends WebPage {
 
     // Logger
     private static final Logger log = LoggerFactory.getLogger(MainPage.class);
@@ -28,13 +28,13 @@ public class MainPage extends WebPage<${siteName}Site> {
     // ...add your Page's WebElements and WebComponents here
 
     @Override
-    public void open() {
+    public void open(Object... arguments) {
         open(url);
         assertIsOpen();
     }
 
     @Override
-    public void assertIsOpen() throws Error {
+    public void assertIsOpen(Object... arguments) throws Error {
         assertCurrentUrlStartsWith(url);
         // ...add your asserts that ensures that the page is loaded
     }

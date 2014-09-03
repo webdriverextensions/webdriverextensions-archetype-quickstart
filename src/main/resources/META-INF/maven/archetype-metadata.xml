@@ -28,8 +28,15 @@
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
+      <directory>drivers</directory>
+      <includes>
+        <include>**/*.</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
       <directory/>
       <includes>
+        <include>.gitignore</include>
         <include>deploy</include>
         <include>install</include>
         <include>LICENSE</include>

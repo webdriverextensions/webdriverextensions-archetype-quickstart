@@ -7,7 +7,7 @@
     <!-- Console Appender -->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%cyan(%d{"HH:mm:ss.SSS"}) %highlight(%-5level   %-130message)   %cyan(%c{0}:%line) %n</pattern>
+            <pattern>%d{"HH:mm:ss.SSS"} %-5level   %-130message   %c{0}:%line %n</pattern>
         </encoder>
     </appender>
 

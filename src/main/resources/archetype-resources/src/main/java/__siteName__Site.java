@@ -4,8 +4,8 @@
 package ${groupId};
 
 import ${groupId}.page.MainPage;
-import org.andidev.webdriverextension.WebSite;
-import static org.andidev.webdriverextension.Bot.*;
+import com.github.webdriverextensions.WebSite;
+import static com.github.webdriverextensions.Bot.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,12 +21,12 @@ public class ${siteName}Site extends WebSite {
     public MainPage mainPage;
     // ...add your Site's WebPages here
 
-    public void open() {
+    public void open(Object... arguments) {
         open(url);
     }
 
     @Override
-    public void assertIsOpen() throws Error {
+    public void assertIsOpen(Object... arguments) throws Error {
         assertCurrentUrlStartsWith(url);
     }
 

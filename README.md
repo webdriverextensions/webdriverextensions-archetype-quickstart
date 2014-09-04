@@ -18,7 +18,7 @@ mvn archetype:generate                                                          
   -DsiteUrl=https://yourwebsiteurl.com                                                             \
   -DarchetypeGroupId=com.github.webdriverextensions                                                \
   -DarchetypeArtifactId=webdriverextensions-archetype-quickstart                                   \
-  -DarchetypeVersion=1.0
+  -DarchetypeVersion=1.0.1
 ```
 
 E.g. lets say we want to create the a project to test the GitHub website
@@ -32,7 +32,7 @@ mvn archetype:generate                                                          
   -DsiteUrl=https://github.com                                                                     \
   -DarchetypeGroupId=com.github.webdriverextensions                                                \
   -DarchetypeArtifactId=webdriverextensions-archetype-quickstart                                   \
-  -DarchetypeVersion=1.0
+  -DarchetypeVersion=1.0.1
 ```
 
 No need to add any drivers since the webdriverextensions-maven-plugin is configured to download

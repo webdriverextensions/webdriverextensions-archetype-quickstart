@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.github.webdriverextensions</groupId>
             <artifactId>webdriverextensions</artifactId>
-            <version>1.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 
@@ -33,6 +33,18 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <drivers>
+                        <driver>
+                            <name>internetexplorerdriver</name>
+                            <version>2.42</version>
+                        </driver>
+                        <driver>
+                            <name>chromedriver</name>
+                            <version>2.10</version>
+                        </driver>
+                    </drivers>
+                </configuration>
             </plugin>
         </plugins>
 

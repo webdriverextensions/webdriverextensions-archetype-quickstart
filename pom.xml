@@ -23,7 +23,6 @@
     <connection>scm:git:git@github.com:webdriverextensions/webdriverextensions-archetype-quickstart.git</connection>
     <developerConnection>scm:git:git@github.com:webdriverextensions/webdriverextensions-archetype-quickstart.git</developerConnection>
     <url>scm:git:git@github.com:webdriverextensions/webdriverextensions-archetype-quickstart.git</url>
-    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>

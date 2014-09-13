@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${groupId}.component;
+package ${package}.component;
 
 import com.github.webdriverextensions.WebComponent;
 

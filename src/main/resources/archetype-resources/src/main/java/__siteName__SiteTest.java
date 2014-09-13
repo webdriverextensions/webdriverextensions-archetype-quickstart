@@ -1,9 +1,10 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${groupId};
+package ${package};
 
-import ${groupId}.page.MainPage;
+import ${package}.${siteName}Site;
+import ${package}.page.MainPage;
 import com.github.webdriverextensions.junitrunner.WebDriverRunner;
 import com.github.webdriverextensions.junitrunner.annotations.Chrome;
 import com.github.webdriverextensions.junitrunner.annotations.Firefox;

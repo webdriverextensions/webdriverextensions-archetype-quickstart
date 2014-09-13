@@ -1,9 +1,9 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${groupId};
+package ${package};
 
-import ${groupId}.page.MainPage;
+import ${package}.page.MainPage;
 import com.github.webdriverextensions.WebSite;
 import static com.github.webdriverextensions.Bot.*;
 import org.slf4j.Logger;

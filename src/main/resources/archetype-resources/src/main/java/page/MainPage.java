@@ -1,10 +1,10 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${groupId}.page;
+package ${package}.page;
 
-import ${groupId}.${siteName}Site;
-import ${groupId}.component.ExampleWebComponent;
+import ${package}.${siteName}Site;
+import ${package}.component.ExampleWebComponent;
 import com.github.webdriverextensions.WebPage;
 import org.openqa.selenium.support.FindBy;
 import static com.github.webdriverextensions.Bot.*;

@@ -20,9 +20,9 @@
   <url>https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</url>
 
   <scm>
-    <connection>scm:git:git@github.com:webdriverextensions/webdriverextensions-archetype-quickstart.git</connection>
-    <developerConnection>scm:git:git@github.com:webdriverextensions/webdriverextensions-archetype-quickstart.git</developerConnection>
-    <url>scm:git:git@github.com:webdriverextensions/webdriverextensions-archetype-quickstart.git</url>
+    <connection>scm:git:https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</connection>
+    <developerConnection>scm:git:https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</developerConnection>
+    <url>scm:git:https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</url>
   </scm>
 
   <distributionManagement>

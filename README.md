@@ -10,29 +10,42 @@ A quickstart archetype for new WebDriver Extension projects.
 ### Creating a New Project
 Open your terminal and run the following command from the direcotory where you want to create your project
 ```sh
-mvn archetype:generate                                                                             \
-  -DgroupId=your.group.id                                                                          \
-  -DartifactId=your-artifact-id                                                                    \
-  -Dversion=1.0-SNAPSHOT                                                                           \
-  -DsiteName=YourWebSiteNameInUpperCamelCase                                                       \
-  -DsiteUrl=https://yourwebsiteurl.com                                                             \
-  -DarchetypeGroupId=com.github.webdriverextensions                                                \
-  -DarchetypeArtifactId=webdriverextensions-archetype-quickstart                                   \
-  -DarchetypeVersion=1.0.1
+mvn archetype:generate -DarchetypeGroupId=com.github.webdriverextensions -DarchetypeArtifactId=webdriverextensions-archetype-quickstart
 ```
 
-E.g. lets say we want to create the a project to test the GitHub website
+Maven then asks you for your project's
+- [groupId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. com.companyname)
+- [artifactId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)  (e.g. sitenametests)
+- [version](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. 1.0-SNAPSHOT)
+- [package](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. com.companyname)
 
-```sh
-mvn archetype:generate                                                                             \
-  -DgroupId=com.github                                                                             \
-  -DartifactId=github                                                                              \
-  -Dversion=1.0-SNAPSHOT                                                                           \
-  -DsiteName=GitHub                                                                                \
-  -DsiteUrl=https://github.com                                                                     \
-  -DarchetypeGroupId=com.github.webdriverextensions                                                \
-  -DarchetypeArtifactId=webdriverextensions-archetype-quickstart                                   \
-  -DarchetypeVersion=1.0.1
+...and lastly your website's
+- siteName   (in CamelCased form, e.g. SiteName)
+- siteUrl    (starting with http:// or https//, e.g. http://www.siteurl.com)
+
+Confirm the configuration and let Maven generate the following project for you
+```
+sitenametests
+├── drivers
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       └── com
+    │           └── companyname
+    │               ├── SiteNameSite.java
+    │               ├── SiteNameSiteTest.java
+    │               ├── component
+    │               │   └── ExampleWebComponent.java
+    │               └── page
+    │                   └── MainPage.java
+    └── test
+        ├── java
+        │   └── com
+        │       └── companyname
+        │           └── MainPageTest.java
+        └── resources
+            └── logback-test.xml
 ```
 
 No need to add any drivers since the webdriverextensions-maven-plugin is configured to download
@@ -41,6 +54,7 @@ them for you!
 Simply just run the generated template test by executing
 
 ```sh
+cd sitenametests
 mvn test
 ```
 

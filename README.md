@@ -8,7 +8,7 @@ A quickstart archetype for new WebDriver Extension projects.
 - Maven 3.x.x
 
 ### Creating a New Project
-Open your terminal and run the following command from the direcotory where you want to create your project
+Open your terminal and run the following command from where you want to create your project
 ```sh
 mvn archetype:generate -DarchetypeGroupId=com.github.webdriverextensions -DarchetypeArtifactId=webdriverextensions-archetype-quickstart
 ```

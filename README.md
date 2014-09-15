@@ -8,22 +8,22 @@ A quickstart archetype for new WebDriver Extension projects.
 - Maven 3.x.x
 
 ### Creating a New Project
-Open your terminal and run the following command from where you want to create your project
+##### Open your terminal and run the following command
 ```sh
 mvn archetype:generate -DarchetypeGroupId=com.github.webdriverextensions -DarchetypeArtifactId=webdriverextensions-archetype-quickstart
 ```
 
-Maven then asks you for your project's
+##### Maven then asks you for your project's
 - [groupId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. com.companyname)
 - [artifactId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)  (e.g. sitenametests)
 - [version](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. 1.0-SNAPSHOT)
 - [package](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. com.companyname)
 
-...and lastly your website's
+##### ...and lastly your website's
 - siteName   (in CamelCased form, e.g. SiteName)
 - siteUrl    (starting with http:// or https//, e.g. http://www.siteurl.com)
 
-Confirm the configuration and let Maven generate the following project for you
+##### Confirm the configuration and let Maven generate the following project for you
 ```
 sitenametests
 ├── drivers
@@ -51,7 +51,7 @@ sitenametests
 No need to add any drivers since the webdriverextensions-maven-plugin is configured to download
 them for you!
 
-Simply just run the generated template test by executing
+##### Simply just run the generated template test by executing
 
 ```sh
 cd sitenametests

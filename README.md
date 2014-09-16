@@ -15,7 +15,7 @@ mvn archetype:generate -DarchetypeGroupId=com.github.webdriverextensions -Darche
 
 ##### Maven then asks you for your project's
 - [groupId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. com.companyname)
-- [artifactId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)  (e.g. sitenametests)
+- [artifactId](http://maven.apache.org/guides/mini/guide-naming-conventions.html)  (e.g. projectname)
 - [version](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. 1.0-SNAPSHOT)
 - [package](http://maven.apache.org/guides/mini/guide-naming-conventions.html)     (e.g. com.companyname)
 
@@ -25,7 +25,7 @@ mvn archetype:generate -DarchetypeGroupId=com.github.webdriverextensions -Darche
 
 ##### Confirm the configuration and let Maven generate the following project for you
 ```
-sitenametests
+projectname
 ├── drivers
 ├── pom.xml
 └── src
@@ -54,7 +54,7 @@ them for you!
 ##### Simply just run the generated template test by executing
 
 ```sh
-cd sitenametests
+cd projectname
 mvn test
 ```
 

@@ -58,6 +58,26 @@ cd projectname
 mvn test
 ```
 
+### Changelog
+
+#### 1.2.0 (2014 October 29)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.2.0
+- SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.44 and chromedriver to 2.12
+
+#### 1.1.0 (2014 October 15)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.1.0
+- SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.43
+
+#### 1.0.2 (2014 September 14)
+- BUGFIX Fixed incorrect package issue
+
+#### 1.0.1 (2014 September 4)
+- BUGFIX Added specific driver versions to webdriverextensions-maven-plugin configuration
+
+
+#### 1.0.0 (2014 September 4)
+- Initial release!
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License");

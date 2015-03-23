@@ -4,7 +4,7 @@
 
   <groupId>com.github.webdriverextensions</groupId>
   <artifactId>webdriverextensions-archetype-quickstart</artifactId>
-  <version>1.4.0</version>
+  <version>1.4.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>WebDriver Extension Archetype Quickstart</name>
@@ -23,7 +23,7 @@
     <connection>scm:git:https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</connection>
     <developerConnection>scm:git:https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</developerConnection>
     <url>scm:git:https://github.com/webdriverextensions/webdriverextensions-archetype-quickstart</url>
-    <tag>webdriverextensions-archetype-quickstart-1.4.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>

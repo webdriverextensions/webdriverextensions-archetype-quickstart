@@ -60,6 +60,9 @@ mvn test
 
 ### Changelog
 
+#### 1.4.0 (2015 Mars 23)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.4.0
+
 #### 1.3.0 (2015 Mars 12)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.3.0
 - SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.45 and chromedriver to 2.14

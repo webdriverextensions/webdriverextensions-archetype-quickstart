@@ -60,6 +60,11 @@ mvn test
 
 ### Changelog
 
+#### 1.5.0 (2015 May 12)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.5.0
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions-maven-plugin version to 1.1.0
+- SELNIUM DRIVER UPDATE Updated chrome driver to 2.15
+
 #### 1.4.0 (2015 Mars 23)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.4.0
 

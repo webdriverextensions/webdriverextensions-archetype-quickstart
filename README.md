@@ -60,29 +60,33 @@ mvn test
 
 ### Changelog
 
+#### 1.7.0 (2015 Aug 11)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.7.0
+- SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.47
+
 #### 1.6.0 (2015 June 9)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.6.0
-- SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.46 and chromedriver to 2.16
+- SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.46 and chromedriver to 2.16
 
 #### 1.5.0 (2015 May 12)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.5.0
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions-maven-plugin version to 1.1.0
-- SELNIUM DRIVER UPDATE Updated chrome driver to 2.15
+- SELENIUM DRIVER UPDATE Updated chrome driver to 2.15
 
 #### 1.4.0 (2015 Mars 23)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.4.0
 
 #### 1.3.0 (2015 Mars 12)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.3.0
-- SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.45 and chromedriver to 2.14
+- SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.45 and chromedriver to 2.14
 
 #### 1.2.0 (2014 October 29)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.2.0
-- SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.44 and chromedriver to 2.12
+- SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.44 and chromedriver to 2.12
 
 #### 1.1.0 (2014 October 15)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.1.0
-- SELNIUM DRIVER UPDATE Updated internetexplorer driver to 2.43
+- SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.43
 
 #### 1.0.2 (2014 September 14)
 - BUGFIX Fixed incorrect package issue

@@ -60,6 +60,9 @@ mvn test
 
 ### Changelog
 
+#### 1.8.0 (2015 Sep 9)
+- SELENIUM DRIVER UPDATE Updated chrome driver to 2.19
+
 #### 1.7.0 (2015 Aug 11)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.7.0
 - SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.47

@@ -63,15 +63,15 @@ mvn test
 
 ### Changelog
 
-#### 2.0.0 (2015 Sep 20)
+#### 2.0.0 (2015 September 20)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 2.0.0
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions-maven-plugin version to 2.0.0
 - JAVA 7 REQUIREMENT Now compiled with java 7 as target since selenium already does that since the 2.47.0 version
 
-#### 1.8.0 (2015 Sep 9)
+#### 1.8.0 (2015 September 9)
 - SELENIUM DRIVER UPDATE Updated chrome driver to 2.19
 
-#### 1.7.0 (2015 Aug 11)
+#### 1.7.0 (2015 August 11)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 1.7.0
 - SELENIUM DRIVER UPDATE Updated internetexplorer driver to 2.47
 

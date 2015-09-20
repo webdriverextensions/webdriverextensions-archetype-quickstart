@@ -7,8 +7,8 @@ WebDriver Extension Archetype Quickstart
 A quickstart archetype for new WebDriver Extension projects.
 
 ### Requirements
-- Java 6 or higher
-- Maven 3.x.x
+- Java 7 or higher
+- Maven 3 or higher
 
 ### Creating a New Project
 ##### Open your terminal and run the following command
@@ -62,6 +62,11 @@ mvn test
 ```
 
 ### Changelog
+
+#### 2.0.0 (2015 Sep 20)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 2.0.0
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions-maven-plugin version to 2.0.0
+- JAVA 7 REQUIREMENT Now compiled with java 7 as target since selenium already does that since the 2.47.0 version
 
 #### 1.8.0 (2015 Sep 9)
 - SELENIUM DRIVER UPDATE Updated chrome driver to 2.19

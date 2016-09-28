@@ -62,6 +62,9 @@ mvn test
 ```
 
 ### Changelog
+#### 2.6.0 (2016 September 28
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 2.9.1
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions-maven-plugin version to 3.0.2
 
 #### 2.6.0 (2016 May 24)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 2.7.0

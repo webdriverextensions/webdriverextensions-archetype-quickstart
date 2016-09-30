@@ -62,7 +62,7 @@ mvn test
 ```
 
 ### Changelog
-#### 2.8.0 (2016 September 30)
+#### 2.7.1 (2016 September 30)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 2.9.2
 
 #### 2.7.0 (2016 September 28)

@@ -7,7 +7,7 @@ WebDriver Extension Archetype Quickstart
 A quickstart archetype for new WebDriver Extension projects.
 
 ### Requirements
-- Java 7 or higher
+- Java 8 or higher
 - Maven 3 or higher
 
 ### Creating a New Project
@@ -62,6 +62,9 @@ mvn test
 ```
 
 ### Changelog
+#### 3.3.0 (2017 February 26)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 3.3.0
+
 #### 2.7.1 (2016 September 30)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 2.9.2
 

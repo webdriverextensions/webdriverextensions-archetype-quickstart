@@ -62,6 +62,9 @@ mvn test
 ```
 
 ### Changelog
+#### 3.4.0 (2018 February 03)
+- WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 3.10.0
+
 #### 3.3.0 (2017 February 26)
 - WEBDRIVEREXTENSIONS UPDATE Updated to latest webdriverextensions version to 3.3.0
 
